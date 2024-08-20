@@ -9,3 +9,37 @@ body {
 h1 {
   font-size: 70px;
 }
+
+.horizontal-line {
+  width: 700px;
+  height: 10px;
+  background-color: black;
+  position: absolute;
+  bottom: 650px;
+}
+
+.horizontal-line-2 {
+  width: 700px;
+  height: 10px;
+  background-color: black;
+  position: absolute;
+  top: 650px;
+}
+
+.vertical-line {
+  width: 10px;
+  height: 700px;
+  background-color: black;
+  position: absolute;
+  top: 200px;
+  left: 825px;
+}
+
+.vertical-line-2 {
+  width: 10px;
+  height: 700px;
+  background-color: black;
+  position: absolute;
+  top: 200px;
+  right: 825px;
+}
