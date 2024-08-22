@@ -64,8 +64,11 @@ h1 {
 .column-left, .column-middle, .column-right {
   width: 33.33%;
 }
-.top-left, .mid-left, .bot-left, .mid-top, .mid, .mid-bot, .top-right, .mid-right, .bot-right {
+
+.square {
   width: 200px;
   height: 200px;
   cursor: pointer;
+  font-size: 180px;
+  text-align: center;
 }
