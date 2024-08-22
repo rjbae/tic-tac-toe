@@ -56,3 +56,16 @@ h1 {
 .vertical-line-2 {
   left: 66.66%;
 }
+
+.column-container {
+  display: flex;
+}
+
+.column-left, .column-middle, .column-right {
+  width: 33.33%;
+}
+.top-left, .mid-left, .bot-left, .mid-top, .mid, .mid-bot, .top-right, .mid-right, .bot-right {
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}
